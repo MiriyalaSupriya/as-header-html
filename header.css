@@ -12,3 +12,6 @@ ul#top-menu > li > ul > li:not(:nth-child(3)) > ul > li > a span{font-size: 16px
 ul#top-menu > li > ul > li:not(:nth-child(3)) > ul > li > a span strong{font-weight: 600;}
 ul#top-menu > li > ul > li:not(:nth-child(3)) > ul > li > a span p{font-weight: 400;}
 ul#top-menu > li > ul > li:not(:nth-child(3)) > ul > li > a img{width: 26px; height: 24px}
+ul#top-menu > li > ul.sub-menu > li:nth-child(3) > ul > li > a:after {position: absolute; content:""; display: block; 
+          background: linear-gradient(0deg, rgba(23, 92, 255, 0.70) -32.83%, rgba(15, 19, 22, 0.70) 124.67%);
+        top: 0; left: 0; width: 250px;}
