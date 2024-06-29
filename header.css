@@ -10,10 +10,10 @@ ul#top-menu > li > li > a {padding: 6px 0 6px 12px;}
 ul#top-menu > li.mega-menu > li > ul {width: 100%;}
 ul#top-menu > li > ul.sub-menu > li:nth-child(3){flex: 0 0 250px;}
 ul#top-menu > li > ul.sub-menu > li:nth-child(3) li a{padding: 0;}
-ul#top-menu > li > ul > li:not(:nth-child(3)) > ul > li > a span{font-size: 16px;}
+ul#top-menu > li > ul > li:not(:nth-child(3)) > ul > li > a span{font-size: 16px; padding: 0;}
 ul#top-menu > li > ul > li:not(:nth-child(3)) > ul > li > a span strong{font-weight: 600;}
 ul#top-menu > li > ul > li:not(:nth-child(3)) > ul > li > a span p{font-weight: 400;}
-ul#top-menu > li > ul > li:not(:nth-child(3)) > ul > li > a img{width: 26px; height: 24px}
+ul#top-menu > li > ul > li:not(:nth-child(3)) > ul > li > a img{width: 26px; height: 24px; padding: 0;}
 
 
 .menu-video-txt{ position: absolute; left: 22px; top: 18px; color: #DCDFE3; font-size: 16px; z-index: 1; font-weight: 400;}
