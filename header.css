@@ -1,3 +1,6 @@
+
+#top-menu > .menu-item > ul.sub-menu{border: none; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none;}
+#top-menu > .menu-item > ul.sub-menu::before{width: 1000vw; height: 100%; top: 0; left: -100vw; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,.1); display: block; content: ""; position: absolute;}
 ul#top-menu > li.mega-menu li > a{display: flex; align-items: flex-start; gap: 12px;}
 ul#top-menu > li.mega-menu li > a > span p{color: #62748A;}
 ul#top-menu > .menu-item > ul.sub-menu li > ul.sub-menu{padding: 22px 0; display: block;}
