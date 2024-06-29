@@ -1,7 +1,7 @@
-#top-menu li.mega-menu li > a{display: flex; align-items: flex-start; gap: 12px;}
-#top-menu li.mega-menu li > a > span p{color: #62748A;}
-#top-menu > .menu-item > .sub-menu li > .sub-menu {	padding: 22px 0!important;}
-#top-menu li li a {padding: 6px 0 6px 12px;}
-#top-menu li.mega-menu li > ul {width: 100%!important;}
+#top-menu > li.mega-menu li > a{display: flex; align-items: flex-start; gap: 12px;}
+#top-menu > li.mega-menu li > a > span p{color: #62748A;}
+#top-menu > .menu-item > .sub-menu li > ul.sub-menu{padding: 22px 0; display: block;}
+#top-menu > li > li > a {padding: 6px 0 6px 12px;}
+#top-menu > li.mega-menu > li > ul {width: 100%;}
 #top-menu > .menu-item > .sub-menu li:nth-child(3){flex: 0 0 250px;}
 #top-menu > .menu-item > .sub-menu li:nth-child(3) li a{padding: 0;}
