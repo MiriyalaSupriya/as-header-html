@@ -6,4 +6,6 @@ ul#top-menu > li.mega-menu > li > ul {width: 100%;}
 ul#top-menu > li > ul.sub-menu > li:nth-child(3){flex: 0 0 250px;}
 ul#top-menu > li > ul.sub-menu > li:nth-child(3) li a{padding: 0;}
 ul#top-menu > li.mega-menu li > a span{font-size: 16px;}
-
+ul#top-menu > li.mega-menu li > a span strong{font-weight: 600;}
+ul#top-menu > li.mega-menu li > a span p{font-weight: 400;}
+ul#top-menu > li.mega-menu li > a img{width: 26px; height: 24px}
