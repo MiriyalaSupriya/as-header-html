@@ -1,9 +1,11 @@
 
-#top-menu > .menu-item > ul.sub-menu{border: none; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none;}
-#top-menu > .menu-item > ul.sub-menu::before{width: 1000vw; height: 100%; top: 0; left: -100vw; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,.1); display: block; content: ""; position: absolute;}
-ul#top-menu > li.mega-menu li > a{display: flex; align-items: flex-start; gap: 12px;}
-ul#top-menu > li.mega-menu li > a > span p{color: #62748A;}
-ul#top-menu > .menu-item > ul.sub-menu li > ul.sub-menu{padding: 22px 0; display: block; animation: none; -webkit-animation: none; -moz-animation: none;}
+ul#top-menu > li.menu-item > ul.sub-menu{gap: 32px; border: none; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none;}
+ul#top-menu > li.menu-item > ul.sub-menu::before{width: 1000vw; height: 100%; top: 0; left: -100vw; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,.1); display: block; content: ""; position: absolute;}
+ul#top-menu > li.mega-menu > ul > li > ul > li{margin: 5px 0;}
+ul#top-menu > li.mega-menu > ul > li > ul > li > a{padding: 15px 10px; border-radius: 10px; display: flex; align-items: flex-start; gap: 12px;}
+ul#top-menu > li.mega-menu > ul > li > ul > li > a:hover{background-color:rgba(0,0,0,.03);}
+ul#top-menu > li.mega-menu > ul > li > ul > li > a > span p{color: #62748A;}
+ul#top-menu > li.menu-item > ul.sub-menu li > ul.sub-menu{padding: 22px 0; display: block; animation: none; -webkit-animation: none; -moz-animation: none;}
 ul#top-menu > li > li > a {padding: 6px 0 6px 12px;}
 ul#top-menu > li.mega-menu > li > ul {width: 100%;}
 ul#top-menu > li > ul.sub-menu > li:nth-child(3){flex: 0 0 250px;}
