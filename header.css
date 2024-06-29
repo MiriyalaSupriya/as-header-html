@@ -5,6 +5,5 @@ ul#top-menu > li > li > a {padding: 6px 0 6px 12px;}
 ul#top-menu > li.mega-menu > li > ul {width: 100%;}
 ul#top-menu > li > ul.sub-menu > li:nth-child(3){flex: 0 0 250px;}
 ul#top-menu > li > ul.sub-menu > li:nth-child(3) li a{padding: 0;}
-
-#top-menu > .menu-item > .sub-menu li > span .menu-item-title{font-size: 16px;}
+ul#top-menu > li.mega-menu li > a span{font-size: 16px;}
 
